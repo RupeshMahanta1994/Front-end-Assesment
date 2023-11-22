@@ -1,0 +1,11 @@
+.bgcolor{
+  background-image: radial-gradient(at bottom left,rgba(31, 169, 17, 0.8101),rgba(47, 21, 208, 1),rgba(0, 0, 0, 0));
+}
+
+.cardBackground{
+  background-image: linear-gradient(to right,rgb(0, 0, 0,1),rgba(255,255,255,1),rgb(0, 0, 0, 1));
+}
+
+input{
+  border: 1px solid #E5E5E6;
+}
