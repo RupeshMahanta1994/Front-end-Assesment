@@ -14,6 +14,7 @@ const HomePage = () => {
             <div className="w-[100%] md:w-[55%]">
               <TextBox
                 image={Bell}
+                imagePlace={`start`}
                 title={`Get notified when a highly correlated whale makes a move`}
                 desc={`Find out when a certain whale moves more than any preset amount
               on-chain or when a dormant whale you care about becomes active.`}
@@ -36,6 +37,7 @@ const HomePage = () => {
               <TextBox
                 image={Eye}
                 imagePlace={`end`}
+                textPlace={`right`}
                 title={`Watch what the whales are doing`}
                 desc={`  All whales are not equal. Know exactly what the whales
                     impacting YOUR portfolio are doing.`}
