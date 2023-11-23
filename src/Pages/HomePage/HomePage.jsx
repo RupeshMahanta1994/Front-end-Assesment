@@ -43,10 +43,7 @@ const HomePage = () => {
             </div>
           </div>
 
-          <div
-            className="w-full  text-right pb-5  md:pr-10  border-b-2 border-[
-rgba(229, 229, 230, 0.5)] font-[500] text-2xl text-[#F2F2F2]"
-          >
+          <div className="w-full  text-right pb-5  md:pr-10  border-b-2 border-gray-300 font-[500] text-2xl text-[#F2F2F2] tracking-wider">
             Testimonial
           </div>
           <div className="flex flex-col md:flex-row items-start md:items-end gap-3 md:gap-5">

@@ -6,8 +6,10 @@ const TextBox = ({ image, imagePlace, title, desc }) => {
       <div className={`flex md:justify-${imagePlace}`}>
         <img src={image} alt="" />
       </div>
-      <h1 className="text-3xl text-[#F2F2F2] font-medium ">{title}</h1>
-      <p className="text-sm text-[#F2F2F2] font-medium leading-[120%]">
+      <h1 className="text-3xl text-[rgb(242,242,242)] tracking-wide font-medium ">
+        {title}
+      </h1>
+      <p className="text-sm text-gray-300 tracking-wider font-medium leading-[120%]">
         {desc}
       </p>
     </div>
